@@ -1,0 +1,3 @@
+inherit xorg
+
+MAKEOPTS+=" randrdocdir=/usr/share/doc/${P}"
