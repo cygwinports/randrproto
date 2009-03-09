@@ -18,15 +18,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack randrproto-1.2.99.4-X-src.tar.bz2
+  unpack randrproto-1.3.0-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./randrproto-1.2.99.4-X.cygport all
+  cygport ./randrproto-1.3.0-X.cygport all
 
 This will create:
-  /usr/src/randrproto-1.2.99.4-X-src.tar.bz2
-  /usr/src/randrproto-1.2.99.4-X.tar.bz2
+  /usr/src/randrproto-1.3.0-X-src.tar.bz2
+  /usr/src/randrproto-1.3.0-X.tar.bz2
 
 -------------------------------------------
 
@@ -35,14 +35,14 @@ Files included in the binary package:
   /usr/include/X11/extensions/randr.h
   /usr/include/X11/extensions/randrproto.h
   /usr/lib/pkgconfig/randrproto.pc
-  /usr/share/doc/randrproto-1.2.99.4/COPYING
-  /usr/share/doc/randrproto-1.2.99.4/ChangeLog
+  /usr/share/doc/randrproto-1.3.0/COPYING
+  /usr/share/doc/randrproto-1.3.0/ChangeLog
 
 ------------------
 
 Port Notes:
 
------ version 1.2.99.4-1 -----
+----- version 1.3.0-1 -----
 Version bump.
 
 ----- version 1.2.2-1 -----
