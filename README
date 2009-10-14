@@ -1,11 +1,11 @@
 randrproto
 ------------------------------------------
-X.Org XRandR protocol headers
+X.Org XRandR extension headers
 
 Build requirements:
-  cygwin-1.5.25-15
-  cygport-0.4.4-1
-  gawk-3.1.6-1
+  cygwin-1.7.0-62
+  cygport-0.9.10-1
+  gawk-3.1.7-1
   make-3.81-2
   sed-4.1.5-2
 
@@ -13,34 +13,27 @@ Canonical website:
   http://xorg.freedesktop.org/
 
 Canonical download:
-  http://xorg.freedesktop.org/releases/individual/
+  http://xorg.freedesktop.org/releases/individual/proto/
 
 -------------------------------------------
 
 Build instructions:
-  unpack randrproto-1.3.0-X-src.tar.bz2
+  unpack randrproto-1.3.1-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./randrproto-1.3.0-X.cygport all
+  cygport ./randrproto-1.3.1-X.cygport all
 
 This will create:
-  /usr/src/randrproto-1.3.0-X-src.tar.bz2
-  /usr/src/randrproto-1.3.0-X.tar.bz2
+  /usr/src/randrproto-1.3.1-X-src.tar.bz2
+  /usr/src/randrproto-1.3.1-X.tar.bz2
 
 -------------------------------------------
 
-Files included in the binary package:
-
-  /usr/include/X11/extensions/randr.h
-  /usr/include/X11/extensions/randrproto.h
-  /usr/lib/pkgconfig/randrproto.pc
-  /usr/share/doc/randrproto-1.3.0/COPYING
-  /usr/share/doc/randrproto-1.3.0/ChangeLog
-
-------------------
-
 Port Notes:
+
+----- version 1.3.1-1 -----
+Version bump for X11R7.5.
 
 ----- version 1.3.0-1 -----
 Version bump.

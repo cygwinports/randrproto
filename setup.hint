@@ -1,3 +1,4 @@
 category: X11
-sdesc: "X.Org XRandR protocol headers"
-ldesc: "X.Org XRandR protocol headers"
+requires: renderproto
+sdesc: "X.Org XRandR extension headers"
+ldesc: "X.Org XRandR extension headers"
