@@ -1,0 +1,6 @@
+inherit xorg
+
+CATEGORY="X11"
+SUMMARY="X.Org XRandR extension headers"
+
+REQUIRES="renderproto"
