@@ -1,9 +1,11 @@
 inherit xorg
 
 NAME="randrproto"
-VERSION=1.4.0
+VERSION=1.4.1
 RELEASE=1
 CATEGORY="Devel"
 SUMMARY="X.Org XRandR extension headers"
+
+ARCH=noarch
 
 REQUIRES="renderproto"
